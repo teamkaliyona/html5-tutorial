@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Input Attributes</title>
+</head>
+<body>
+	<form>
+		<label>Enter Name: </label>
+		<input type="text" name="name" value="Rahul" size="50">
+		<br><br>
+		<input type="password" name="password" placeholder="Enter password" maxlength="8" required="true">
+		<br><br>
+		<label>Categories</label>
+		<input type="radio" name="categories" value="programming" id="programming">
+		<label for="programming">Programming</label>
+		<input type="radio" name="categories" value="officeskills" id="officeskills">
+		<label for="officeskills">Office Skills</label>
+		<input type="radio" name="categories" value="vtu" id="vtu">
+		<label for="vtu">VTU</label>
+		<br><br>
+		<label for="students">Are you a Student ? </label>
+		<input type="checkbox" name="students" id="students">
+		<br><br>
+		<input type="date" name="date" placeholder="Enter date" disabled="true">
+		<br><br>
+		<input type="file" name="file">
+		<br><br>
+		<input type="hidden" name="hidden" value="20">
+		<input type="number" name="num" value="450" readonly="true">
+		<br><br>
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+	</form>
+</body>
+</html>
